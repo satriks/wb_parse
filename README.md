@@ -38,16 +38,18 @@ tracker.run()
  - nm_id - артикул товара на WB (обязательный)
  - rate - максимальный рейтинг для негативных отзывов (по умолчанию 3)
  - days - количество дней для анализа (по умолчанию 3)
-Настройка
+ - 
+## Настройка
 База данных:
 
-По умолчанию используется SQLite (файл wb_feedbacks.db)
-Для смены БД измените DATABASE_URL в DB/ORM.py
+ * По умолчанию используется SQLite (файл wb_feedbacks.db)
+ * Для смены БД измените DATABASE_URL в DB/ORM.py
+
 Логирование:
 
-Конфигурация в logging_config.py
-Логи сохраняются в logs/wb_feedback_tracker.log
-Форматы данных:
+* Конфигурация в logging_config.py
+* Логи сохраняются в logs/wb_feedback_tracker.log
 
-Схема БД описана в DB/models.py
+Форматы данных:
+* Схема БД описана в DB/models.py
 
